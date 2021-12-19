@@ -140,6 +140,8 @@ The diff output will show which USB IDs are most relevant.
 
 [Install Rust](https://www.rust-lang.org/tools/install), then do `cargo build --release`
 
+On Fedora, you may need to install the `systemd-devel` package.  On Debian (and derivatives) you may need to install the `libudev-dev` package.
+
 ## Running on startup
 
 ### Windows
